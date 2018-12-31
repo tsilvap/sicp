@@ -1,4 +1,4 @@
-; Good enough fails for numbers < 0.001 since that is the margin of
+; good-enough fails for numbers < 0.001 since that is the margin of
 ; error that we use.  For very small numbers, the margin of error is
 ; much larger than the number, therefore the result will be very
 ; innacurate.
