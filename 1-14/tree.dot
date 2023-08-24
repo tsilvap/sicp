@@ -1,0 +1,147 @@
+digraph {
+1 [label="(cc 11 5)" style=filled]
+1 -> 10
+1 -> 11
+10 [label="(cc 11 4)" style=filled]
+10 -> 100
+10 -> 101
+100 [label="(cc 11 3)" style=filled]
+100 -> 1000
+100 -> 1001
+1000 [label="(cc 11 2)" style=filled]
+1000 -> 10000
+1000 -> 10001
+10000 [label="(cc 11 1)" style=filled]
+10000 -> 100000
+10000 -> 100001
+100000 [label="(cc 11 0)" style=filled]
+100000 [label="(cc 11 0)" style=solid shape=plain fontcolor=indianred]
+100001 [label="(cc 10 1)" style=filled]
+100001 -> 1000010
+100001 -> 1000011
+1000010 [label="(cc 10 0)" style=filled]
+1000010 [label="(cc 10 0)" style=solid shape=plain fontcolor=indianred]
+1000011 [label="(cc 9 1)" style=filled]
+1000011 -> 10000110
+1000011 -> 10000111
+10000110 [label="(cc 9 0)" style=filled]
+10000110 [label="(cc 9 0)" style=solid shape=plain fontcolor=indianred]
+10000111 [label="(cc 8 1)" style=filled]
+10000111 -> 100001110
+10000111 -> 100001111
+100001110 [label="(cc 8 0)" style=filled]
+100001110 [label="(cc 8 0)" style=solid shape=plain fontcolor=indianred]
+100001111 [label="(cc 7 1)" style=filled]
+100001111 -> 1000011110
+100001111 -> 1000011111
+1000011110 [label="(cc 7 0)" style=filled]
+1000011110 [label="(cc 7 0)" style=solid shape=plain fontcolor=indianred]
+1000011111 [label="(cc 6 1)" style=filled]
+1000011111 -> 10000111110
+1000011111 -> 10000111111
+10000111110 [label="(cc 6 0)" style=filled]
+10000111110 [label="(cc 6 0)" style=solid shape=plain fontcolor=indianred]
+10000111111 [label="(cc 5 1)" style=filled]
+10000111111 -> 100001111110
+10000111111 -> 100001111111
+100001111110 [label="(cc 5 0)" style=filled]
+100001111110 [label="(cc 5 0)" style=solid shape=plain fontcolor=indianred]
+100001111111 [label="(cc 4 1)" style=filled]
+100001111111 -> 1000011111110
+100001111111 -> 1000011111111
+1000011111110 [label="(cc 4 0)" style=filled]
+1000011111110 [label="(cc 4 0)" style=solid shape=plain fontcolor=indianred]
+1000011111111 [label="(cc 3 1)" style=filled]
+1000011111111 -> 10000111111110
+1000011111111 -> 10000111111111
+10000111111110 [label="(cc 3 0)" style=filled]
+10000111111110 [label="(cc 3 0)" style=solid shape=plain fontcolor=indianred]
+10000111111111 [label="(cc 2 1)" style=filled]
+10000111111111 -> 100001111111110
+10000111111111 -> 100001111111111
+100001111111110 [label="(cc 2 0)" style=filled]
+100001111111110 [label="(cc 2 0)" style=solid shape=plain fontcolor=indianred]
+100001111111111 [label="(cc 1 1)" style=filled]
+100001111111111 -> 1000011111111110
+100001111111111 -> 1000011111111111
+1000011111111110 [label="(cc 1 0)" style=filled]
+1000011111111110 [label="(cc 1 0)" style=solid shape=plain fontcolor=indianred]
+1000011111111111 [label="(cc 0 1)" style=filled]
+1000011111111111 [label="(cc 0 1)" style=filled fillcolor=lightgreen]
+1000011111111111 -> 10000111111111111
+10000111111111111 [label="1" shape=plaintext]
+10001 [label="(cc 6 2)" style=filled]
+10001 -> 100010
+10001 -> 100011
+100010 [label="(cc 6 1)" style=filled]
+100010 -> 1000100
+100010 -> 1000101
+1000100 [label="(cc 6 0)" style=filled]
+1000100 [label="(cc 6 0)" style=solid shape=plain fontcolor=indianred]
+1000101 [label="(cc 5 1)" style=filled]
+1000101 -> 10001010
+1000101 -> 10001011
+10001010 [label="(cc 5 0)" style=filled]
+10001010 [label="(cc 5 0)" style=solid shape=plain fontcolor=indianred]
+10001011 [label="(cc 4 1)" style=filled]
+10001011 -> 100010110
+10001011 -> 100010111
+100010110 [label="(cc 4 0)" style=filled]
+100010110 [label="(cc 4 0)" style=solid shape=plain fontcolor=indianred]
+100010111 [label="(cc 3 1)" style=filled]
+100010111 -> 1000101110
+100010111 -> 1000101111
+1000101110 [label="(cc 3 0)" style=filled]
+1000101110 [label="(cc 3 0)" style=solid shape=plain fontcolor=indianred]
+1000101111 [label="(cc 2 1)" style=filled]
+1000101111 -> 10001011110
+1000101111 -> 10001011111
+10001011110 [label="(cc 2 0)" style=filled]
+10001011110 [label="(cc 2 0)" style=solid shape=plain fontcolor=indianred]
+10001011111 [label="(cc 1 1)" style=filled]
+10001011111 -> 100010111110
+10001011111 -> 100010111111
+100010111110 [label="(cc 1 0)" style=filled]
+100010111110 [label="(cc 1 0)" style=solid shape=plain fontcolor=indianred]
+100010111111 [label="(cc 0 1)" style=filled]
+100010111111 [label="(cc 0 1)" style=filled fillcolor=lightgreen]
+100010111111 -> 1000101111111
+1000101111111 [label="1" shape=plaintext]
+100011 [label="(cc 1 2)" style=filled]
+100011 -> 1000110
+100011 -> 1000111
+1000110 [label="(cc 1 1)" style=filled]
+1000110 -> 10001100
+1000110 -> 10001101
+10001100 [label="(cc 1 0)" style=filled]
+10001100 [label="(cc 1 0)" style=solid shape=plain fontcolor=indianred]
+10001101 [label="(cc 0 1)" style=filled]
+10001101 [label="(cc 0 1)" style=filled fillcolor=lightgreen]
+10001101 -> 100011011
+100011011 [label="1" shape=plaintext]
+1000111 [label="(cc -4 2)" style=filled]
+1000111 [label="(cc -4 2)" style=solid shape=plain fontcolor=indianred]
+1001 [label="(cc 1 3)" style=filled]
+1001 -> 10010
+1001 -> 10011
+10010 [label="(cc 1 2)" style=filled]
+10010 -> 100100
+10010 -> 100101
+100100 [label="(cc 1 1)" style=filled]
+100100 -> 1001000
+100100 -> 1001001
+1001000 [label="(cc 1 0)" style=filled]
+1001000 [label="(cc 1 0)" style=solid shape=plain fontcolor=indianred]
+1001001 [label="(cc 0 1)" style=filled]
+1001001 [label="(cc 0 1)" style=filled fillcolor=lightgreen]
+1001001 -> 10010011
+10010011 [label="1" shape=plaintext]
+100101 [label="(cc -4 2)" style=filled]
+100101 [label="(cc -4 2)" style=solid shape=plain fontcolor=indianred]
+10011 [label="(cc -9 3)" style=filled]
+10011 [label="(cc -9 3)" style=solid shape=plain fontcolor=indianred]
+101 [label="(cc -14 4)" style=filled]
+101 [label="(cc -14 4)" style=solid shape=plain fontcolor=indianred]
+11 [label="(cc -39 5)" style=filled]
+11 [label="(cc -39 5)" style=solid shape=plain fontcolor=indianred]
+}
